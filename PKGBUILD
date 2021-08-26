@@ -18,7 +18,7 @@ makedepends=('mingw-w64-gcc' 'yasm' 'git')
 provides=(${pkgname%-bootstrap})
 conflicts=(${pkgname%-bootstrap})
 _commit=aaa9aa83a111ed6f1db253d5afa91c5fc844583f
-source=("git://git.videolan.org/x264.git#commit=${_commit}")
+source=("git+https://code.videolan.org/videolan/x264.git#commit=${_commit}")
 md5sums=('SKIP')
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
 
