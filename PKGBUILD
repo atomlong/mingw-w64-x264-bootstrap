@@ -6,7 +6,6 @@
 pkgname=mingw-w64-x264-bootstrap
 pkgver=148.20170521
 pkgrel=1
-epoch=1
 pkgdesc='Free library for encoding H264/AVC video streams (mingw-w64)'
 arch=('any')
 url='https://www.videolan.org/developers/x264.html'
